@@ -1,0 +1,44 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "WORKFLOW",
+  "workflowType": "STANDARD",
+  "customFieldValues": {
+  },
+  "dependencies": 
+  [
+    {
+      "dependencyType": "AND",
+      "groupId": "f64e3bc9-3236-4adf-ac02-5027e32666a4",
+      "name": "AND",
+      "parent": "a3a90ccf-b4bc-4982-b459-3fe42b780ae0",
+      "processingStatus": "COMPLETED",
+      "processingType": "WORKFLOW",
+      "workflowType": "STANDARD"
+    },
+    {
+      "dependencyType": "OR",
+      "groupId": "a3a90ccf-b4bc-4982-b459-3fe42b780ae0",
+      "name": "OR",
+      "processingStatus": "COMPLETED",
+      "processingType": "WORKFLOW",
+      "workflowType": "STANDARD"
+    }
+  ],
+  "designParameters": 
+  [
+    {
+      "editorType": "TEXT",
+      "name": "test",
+      "title": "test"
+    }
+  ],
+  "items": 
+  [
+    {
+      "name": "wait_30m",
+      "processingTemplate": "wait_30m",
+      "title": "wait_30m"
+    }
+  ]
+}
