@@ -1,0 +1,11 @@
+{
+  "node": "LINUX_LB",
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "taskType": "SH",
+  "processingCommand": {
+    "script": "sleep 1m\necho hel"
+  }
+}
