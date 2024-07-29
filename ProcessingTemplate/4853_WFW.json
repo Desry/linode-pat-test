@@ -38,6 +38,9 @@
     {
       "name": "wait_30m",
       "processingTemplate": "wait_30m",
+      "processingType": "TASK",
+      "serverNodeType": "INTERNAL",
+      "taskType": "WAIT",
       "title": "wait_30m"
     }
   ]
