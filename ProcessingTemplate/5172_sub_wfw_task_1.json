@@ -6,6 +6,6 @@
   "serverNodeType": "LINUX",
   "taskType": "SH",
   "processingCommand": {
-    "script": "sleep 1m\necho bye"
+    "script": "sleep 1m\necho hello"
   }
 }
